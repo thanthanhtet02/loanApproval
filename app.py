@@ -115,7 +115,7 @@ with col3:
       <div class='modern-header'>🏠 Other Information</div>
     """, unsafe_allow_html=True)
     home = st.selectbox("Home Ownership", ["MORTGAGE", "OTHER", "OWN", "RENT"], help="Current home ownership status.")
-    intent = st.selectbox("Loan Purpose", ["EDUCATION", "HOMEIMPROVEMENT", "MEDICAL", "PERSONAL", "VENTURE"], help="Purpose of the loan.")
+    intent = st.selectbox("Loan Purpose", ["EDUCATION", "HOMEIMPROVEMENT", "MEDICAL", "PERSONAL", "VENTURE", "DEBTCONSOLIDATION"], help="Purpose of the loan.")
     default = st.selectbox("Previous Loan Default", ["No", "Yes"], help="Any previous loan defaults?")
 
 st.markdown("""
